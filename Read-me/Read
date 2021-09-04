@@ -1,0 +1,49 @@
+NLP and DL for Education SaaS.
+Extensively went through different techniques and Approaches.
+1. TF-IDF (Term Frequency- Inverse Documents Frequency)
+>How relevant a word is to a document or a collection of documents.
+>Multiplying 2 metrices , how a word appears in a document , and the inverse document frequency of the word across a set of documents.
+>Important in automated text analysis, and NLP.
+
+How is TF-IDF calculated?
+(a) term frequency
+(b) inverse document frequency
+
+Why is TF-IDF used in Machine Learning?
+> text vectorization is a fundamental step in the process of machine learning for analyzing data.
+>TF-IDF score can be fed to algorithms such as Naive Bayes and Support Vector Machines
+Method 2:
+RAKE (Rapid Automatic Keyword Extraction):
+>uses a list of stopwords and phrase delimiters to detect the most relevant words or phrases in a piece of text.
+>split the text into a list of words and remove stopwords from that list. This returns a list of what is known as content words.
+
+Method 3:
+Graph-based Approaches:
+>The most popular graph-based approach is the TextRank model.
+>A text can be represented as a graph in different ways. Words can be considered vertices that are connected by a directed edge.
+
+Method 4:
+Machine Learning Approaches:
+>used for many text analysis tasks, including keyword extraction.
+>transforming data into vectors (a collection of numbers with encoded data), which contain the different features that are representative of a text.
+>different ML algorithms that can be used to extract the most relevant keywords in a text, including Support Vector Machines (SVM) and deep learning.
+(A)Conditional Random Fields:
+>learns patterns by weighting different features in a sequence of words present in a text.
+>This approach considers context and relationships between different variables in order to make its predictions.
+>conditional random fields allows you to create complex and rich patterns.
+>advantage of this approach is its capacity to generalize: once the model has been trained with examples from a certain domain, it can easily apply what it has learned to other fields.
+
+Method 5:
+Hybrid Approaches:
+>In order to get better results when extracting relevant keywords from text, you can combine two or more of the approaches that we’ve mentioned so far.
+
+How the task should go and steps involved in it.
+Steps :
+1) Clean your text (remove punctuations and stop words).
+2) Tokenize the text.
+3) Stem the tokens.
+4) Find the TF(term frequency) for each unique stemmed token present.
+5) Rank the stemmed tokens(keywords) using TF*IDF (IDF - Inverse Document Frequency).
+
+Time Required for doing this task would take more than 3 months. We need to see which method and approach works better for our problem.
+
